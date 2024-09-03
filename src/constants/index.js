@@ -4,16 +4,17 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `Soy Full Stack Developer en constante búsqueda de oportunidades para crecer profesionalmente, contribuir en el campo de la programación y con muchas ganas de aprender.
-
-Poseo una formación como desarrollador web full stack, con habilidades en HTML, CSS, JavaScript, React y React Flex, y habilidades de Backend como Node JS, Mongo DB y Nest adquiridas a través de un curso especializado y reconocido en el tema.
-Actualmente, estoy ampliando mis habilidades capacitandome en AWS, siempre comprometido con el aprendizaje continuo y el trabajo en equipo.
+export const HERO_CONTENT = `Soy un desarrollador Full Stack apasionado por la tecnología y comprometido con la excelencia. Mi misión es transformar ideas en aplicaciones funcionales y escalables, utilizando las últimas tecnologías y las mejores prácticas en desarrollo. Con una formación sólida en desarrollo web full stack, manejo tecnologías front-end como HTML, CSS, JavaScript, React, y React Flex, complementadas con un dominio en backend utilizando Node.js, MongoDB, y NestJS. Actualmente, estoy ampliando mi experiencia en la nube con AWS, lo que me permite diseñar y desplegar aplicaciones robustas y seguras. Estoy aquí para aportar mis habilidades en proyectos que demanden calidad, eficiencia, y un enfoque orientado a resultados.
 
 `;
 
-export const ABOUT_TEXT = `Soy un desarrollador Full Stack con una profunda admiración por la tecnología. Mi viaje en el desarrollo web comenzó con una gran curiosidad por entender cómo funcionan las cosas, y esa curiosidad se ha transformado en una carrera en la que me esfuerzo continuamente por aprender y adaptarme a nuevos desafíos.
+export const ABOUT_TEXT = `Mi trayectoria en el desarrollo web está marcada por una constante evolución y un profundo compromiso con la tecnología. Desde mis inicios, me ha movido una curiosidad insaciable por comprender y dominar cómo funcionan las aplicaciones web, lo que me ha llevado a convertirme en un profesional que no solo sigue aprendiendo, sino que también implementa soluciones que generan impacto.
 
-Me encanta trabajar en entornos colaborativos donde el aprendizaje es mutuo, y siempre estoy buscando oportunidades para seguir creciendo profesionalmente. Estoy comprometido a compartir mis habilidades y conocimientos con los demás, contribuyendo al éxito de los proyectos.`;
+Me especializo en el desarrollo de aplicaciones tanto en el front-end como en el back-end, con un enfoque en la creación de experiencias de usuario excepcionales y sistemas backend robustos. Valoro el trabajo en equipo y creo firmemente en que la colaboración es clave para el éxito de cualquier proyecto. Por eso, estoy siempre dispuesto a compartir mi conocimiento y aprender de otros, contribuyendo a un entorno de trabajo dinámico y productivo.
+
+Mi objetivo es ser parte de proyectos que me permitan aplicar mis conocimientos, enfrentar nuevos retos y aportar valor tangible. Si estás buscando a alguien que pueda llevar tu proyecto al siguiente nivel, con un enfoque profesional y una dedicación total al éxito, estaré encantado de colaborar contigo.`;
+
+export const TITLE_ABOUT = `Transformo desafíos en soluciones tecnológicas innovadoras`
 
 export const EXPERIENCES = [
   {

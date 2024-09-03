@@ -1,6 +1,6 @@
 import { PROJECTS } from "../constants"
 import { motion } from "framer-motion"
-import { FaEye } from "react-icons/fa";
+
 
 const Projects = () => { 
     return <div className="border-b border-neutral-900 pb-4">
