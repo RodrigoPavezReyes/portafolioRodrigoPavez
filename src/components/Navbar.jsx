@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa"
 import { BsSubstack } from "react-icons/bs"
 import { FaInstagram } from "react-icons/fa"
 import { BsWhatsapp } from "react-icons/bs";
+import { FaFilePdf } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -13,11 +14,14 @@ const Navbar = () => {
         </div>
 
         <div className="m-7 flex items-center justify-center gap-4 text-2xl" >
+       
+
           <a href="https://www.linkedin.com/in/rodrigopavezdev/" target="_blank"><FaLinkedin /></a>
           <a href="https://github.com/RodrigoPavezReyes"target="_blank"> <FaGithub /></a>
           <a href="https://substack.com/@rodrigopavez?utm_source=user-menu"target="_blank"><BsSubstack/></a>
           <a href="https://www.instagram.com/rodrigopavezr/"target="_blank"><FaInstagram /></a>
           <a href="https://wa.me/+5493516256448"target="_blank"><BsWhatsapp/></a>
+          <a href="/CvRodrigoPavezArg.pdf" download="RodrigoPavez_CV.pdf"><FaFilePdf/></a>
          
           
           
