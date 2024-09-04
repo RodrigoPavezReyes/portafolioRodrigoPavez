@@ -4,17 +4,13 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `Soy un desarrollador Full Stack apasionado por la tecnología y comprometido con la excelencia. Mi misión es transformar ideas en aplicaciones funcionales y escalables, utilizando las últimas tecnologías y las mejores prácticas en desarrollo. Con una formación sólida en desarrollo web full stack, manejo tecnologías front-end como HTML, CSS, JavaScript, React, y React Flex, complementadas con un dominio en backend utilizando Node.js, MongoDB, y NestJS. Actualmente, estoy ampliando mi experiencia en la nube con AWS, lo que me permite diseñar y desplegar aplicaciones robustas y seguras. Estoy aquí para aportar mis habilidades en proyectos que demanden calidad, eficiencia, y un enfoque orientado a resultados.
-
-`;
-
-export const ABOUT_TEXT = `Mi trayectoria en el desarrollo web está marcada por una constante evolución y un profundo compromiso con la tecnología. Desde mis inicios, me ha movido una curiosidad insaciable por comprender y dominar cómo funcionan las aplicaciones web, lo que me ha llevado a convertirme en un profesional que no solo sigue aprendiendo, sino que también implementa soluciones que generan impacto.
-
-Me especializo en el desarrollo de aplicaciones tanto en el front-end como en el back-end, con un enfoque en la creación de experiencias de usuario excepcionales y sistemas backend robustos. Valoro el trabajo en equipo y creo firmemente en que la colaboración es clave para el éxito de cualquier proyecto. Por eso, estoy siempre dispuesto a compartir mi conocimiento y aprender de otros, contribuyendo a un entorno de trabajo dinámico y productivo.
-
-Mi objetivo es ser parte de proyectos que me permitan aplicar mis conocimientos, enfrentar nuevos retos y aportar valor tangible. Si estás buscando a alguien que pueda llevar tu proyecto al siguiente nivel, con un enfoque profesional y una dedicación total al éxito, estaré encantado de colaborar contigo.`;
+export const HERO_CONTENT = `Soy un desarrollador Full Stack apasionado por la tecnología y comprometido con la excelencia. Mi misión es transformar ideas en aplicaciones funcionales y escalables, utilizando las últimas tecnologías y las mejores prácticas en desarrollo. Con una formación sólida en desarrollo web full stack, manejo tecnologías front-end como HTML, CSS, JavaScript, React, y React Flex, complementadas con un dominio en backend utilizando Node.js, MongoDB, y NestJS. Actualmente, estoy ampliando mi experiencia en la nube con AWS, lo que me permite diseñar y desplegar aplicaciones robustas y seguras. Estoy aquí para aportar mis habilidades en proyectos que demanden calidad, eficiencia, y un enfoque orientado a resultados.`;
 
 export const TITLE_ABOUT = `Transformo desafíos en soluciones tecnológicas innovadoras`
+export const ABOUT_TEXT = `Mi trayectoria en el desarrollo web se caracteriza por una constante evolución y un profundo compromiso con la tecnología. Desde mis inicios, he estado motivado por una curiosidad insaciable por comprender y dominar las aplicaciones web. Me especializo en el desarrollo front-end y back-end, enfocándome en crear experiencias de usuario excepcionales y sistemas robustos.`;
+
+export const ABOUT_TEXT_2=`Valoro el trabajo en equipo y creo que la colaboración es clave para el éxito de cualquier proyecto. Estoy dispuesto a compartir mi conocimiento y aprender de otros, contribuyendo a un entorno dinámico y productivo. Mi objetivo es aplicar mis conocimientos en proyectos desafiantes, aportar valor tangible y llevar cualquier proyecto al siguiente nivel.`
+
 
 export const EXPERIENCES = [
   {
