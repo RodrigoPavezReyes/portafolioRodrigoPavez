@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `Soy un desarrollador Full Stack apasionado por la tecnología y comprometido con la excelencia. Mi misión es transformar ideas en aplicaciones funcionales y escalables, utilizando las últimas tecnologías y las mejores prácticas en desarrollo. Con una formación sólida en desarrollo web full stack, manejo tecnologías front-end como HTML, CSS, JavaScript, React, y React Flex, complementadas con un dominio en backend utilizando Node.js, MongoDB, y NestJS. Actualmente, estoy ampliando mi experiencia en la nube con AWS, lo que me permite diseñar y desplegar aplicaciones robustas y seguras. Estoy aquí para aportar mis habilidades en proyectos que demanden calidad, eficiencia, y un enfoque orientado a resultados.`;
 
@@ -44,6 +45,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Portafolio",
+    image: project6,
+    description:
+      "Landing Page informativa, desarrollada con tecnologías HTML y CSS. Cuenta con una interfaz de usuario intuitiva, diseño responsivo y moderno. Este proyecto se enfoca en presentar de forma clara y atractiva mis habilidades, proyectos y experiencia como desarrollador.",
+    technologies: ["HTML", "CSS", "React", "Tailwind", "Javascript"],
+    link:"https://portafolio-rodrigo-pavez.vercel.app/"
+  },
   {
     title: "Landing Page",
     image: project1,
