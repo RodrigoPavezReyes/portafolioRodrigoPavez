@@ -49,7 +49,7 @@ export const PROJECTS = [
     title: "Portafolio",
     image: project6,
     description:
-      "Landing Page informativa, desarrollada con tecnologías HTML y CSS. Cuenta con una interfaz de usuario intuitiva, diseño responsivo y moderno. Este proyecto se enfoca en presentar de forma clara y atractiva mis habilidades, proyectos y experiencia como desarrollador.",
+      "Landing Page informativa, desarrollada con React. Cuenta con una interfaz de usuario intuitiva, diseño responsivo y moderno. Este proyecto se enfoca en presentar de forma clara y atractiva mis habilidades, proyectos y experiencia como desarrollador.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Javascript"],
     link:"https://portafolio-rodrigo-pavez.vercel.app/"
   },
