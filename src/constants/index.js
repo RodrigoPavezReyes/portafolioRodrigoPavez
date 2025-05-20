@@ -62,7 +62,7 @@ export const PROJECTS = [
     link: "https://portafolio-rodrigo-pavez.vercel.app/",
   },
   {
-    title: "Landing page CityCell",
+    title: "CityCell Service",
     image: project7,
     description:
       "Landing page desarrollada con Next.js, React.js, Tailwind CSS y Framer Motion, enfocada en ofrecer una interfaz moderna, responsiva y optimizada para destacar servicios técnicos de celulares. El diseño prioriza la experiencia del usuario con transiciones suaves, navegación ágil y estructura visual clara.",
