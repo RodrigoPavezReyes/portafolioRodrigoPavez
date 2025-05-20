@@ -4,14 +4,15 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.png";
 
 export const HERO_CONTENT = `Soy un desarrollador Full Stack apasionado por la tecnología y comprometido con la excelencia. Mi misión es transformar ideas en aplicaciones funcionales y escalables, utilizando las últimas tecnologías y las mejores prácticas en desarrollo. Con una formación sólida en desarrollo web full stack, manejo tecnologías front-end como HTML, CSS, JavaScript, React, y React Flex, complementadas con un dominio en backend utilizando Node.js, MongoDB, y NestJS. Actualmente, estoy ampliando mi experiencia en la nube con AWS, lo que me permite diseñar y desplegar aplicaciones robustas y seguras. Estoy aquí para aportar mis habilidades en proyectos que demanden calidad, eficiencia, y un enfoque orientado a resultados.`;
 
-export const TITLE_ABOUT = `Transformo desafíos en soluciones tecnológicas innovadoras`
+export const TITLE_ABOUT = `Transformo desafíos en soluciones tecnológicas innovadoras`;
 export const ABOUT_TEXT = `Mi trayectoria en el desarrollo web se caracteriza por una constante evolución y un profundo compromiso con la tecnología. Desde mis inicios, he estado motivado por una curiosidad insaciable por comprender y dominar las aplicaciones web. Me especializo en el desarrollo front-end y back-end, enfocándome en crear experiencias de usuario excepcionales y sistemas robustos.`;
 
-export const ABOUT_TEXT_2=`Valoro el trabajo en equipo y creo que la colaboración es clave para el éxito de cualquier proyecto. Estoy dispuesto a compartir mi conocimiento y aprender de otros, contribuyendo a un entorno dinámico y productivo. Mi objetivo es aplicar mis conocimientos en proyectos desafiantes, aportar valor tangible y llevar cualquier proyecto al siguiente nivel.`
-
+export const ABOUT_TEXT_2 = `Valoro el trabajo en equipo y creo que la colaboración es clave para el éxito de cualquier proyecto. Estoy dispuesto a compartir mi conocimiento y aprender de otros, contribuyendo a un entorno dinámico y productivo. Mi objetivo es aplicar mis conocimientos en proyectos desafiantes, aportar valor tangible y llevar cualquier proyecto al siguiente nivel.`;
 
 export const EXPERIENCES = [
   {
@@ -50,16 +51,47 @@ export const PROJECTS = [
     image: project6,
     description:
       "Landing Page informativa, desarrollada con React. Cuenta con una interfaz de usuario intuitiva, diseño responsivo y moderno. Este proyecto se enfoca en presentar de forma clara y atractiva mis habilidades, proyectos y experiencia como desarrollador.",
-    technologies: ["HTML", "CSS", "React", "Tailwind", "Javascript"],
-    link:"https://portafolio-rodrigo-pavez.vercel.app/"
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Tailwind",
+      "Javascript",
+      "Framer Motion",
+    ],
+    link: "https://portafolio-rodrigo-pavez.vercel.app/",
+  },
+  {
+    title: "Landing page CityCell",
+    image: project7,
+    description:
+      "Landing page desarrollada con Next.js, React.js, Tailwind CSS y Framer Motion, enfocada en ofrecer una interfaz moderna, responsiva y optimizada para destacar servicios técnicos de celulares. El diseño prioriza la experiencia del usuario con transiciones suaves, navegación ágil y estructura visual clara.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "NextJs",
+      "Javascript",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    link: "https://citycellservice.vercel.app/",
+  },
+  {
+    title: "PokeAPI Explorer – React App",
+    image: project8,
+    description:
+      "Aplicación desarrollada con React, Material UI y Framer Motion, que consume datos en tiempo real desde la PokeAPI. Permite explorar información detallada de Pokémon con una interfaz moderna, responsiva y animaciones fluidas. El diseño prioriza la usabilidad y la visualización clara de los datos, ofreciendo una experiencia atractiva e interactiva para el usuario.",
+    technologies: ["HTML", "CSS", "React", "Tailwind", "Framer Motion"],
+    link: "https://rodrigopavezreyes.github.io/ArteMaderaProyect/",
   },
   {
     title: "Landing Page",
     image: project1,
     description:
       "Landing Page informativa,con tecnologias CSS y HTML, tiene una interfaz de usuario intuitiva y responsiva. Este proyecto se enfoca en la experiencia del usuario y un diseño atractivo.",
-    technologies: ["HTML", "CSS", "React","Firebase", "Bootstrap"],
-    link:"https://rodrigopavezreyes.github.io/ArteMaderaProyect/"
+    technologies: ["HTML", "CSS", "React", "Firebase", "Bootstrap"],
+    link: "https://rodrigopavezreyes.github.io/ArteMaderaProyect/",
   },
 
   {
@@ -68,15 +100,15 @@ export const PROJECTS = [
     description:
       "Aplicación que consume la API de Rick and Morty, presentando personajes y episodios con un diseño creado en CSS nativo. El diseño simula el estilo visual de la API oficial, ofreciendo una experiencia coherente y atractiva.",
     technologies: ["HTML", "CSS", "React"],
-    link: "https://rodrigopavezreyes.github.io/app-rickAndMorty-react/"
+    link: "https://rodrigopavezreyes.github.io/app-rickAndMorty-react/",
   },
   {
     title: "Chat en tiempo real",
     image: project3,
     description:
       "Implementé un chat en tiempo real utilizando WebSocket, Node.js y Express, permitiendo una comunicación instantánea entre usuarios. Este proyecto se centra en la eficiencia y la interactividad, ofreciendo una experiencia de chat fluida y responsiva.",
-    technologies: ["HTML", "CSS", "Node","Express", "Websocket"],
-    link: "https://jungle-picayune-sunset.glitch.me"
+    technologies: ["HTML", "CSS", "Node", "Express", "Websocket"],
+    link: "https://jungle-picayune-sunset.glitch.me",
   },
   {
     title: "To-do-list",
@@ -84,7 +116,7 @@ export const PROJECTS = [
     description:
       "Aplicación de lista de tareas utilizando React, que permite a los usuarios gestionar y organizar sus actividades diarias de manera sencilla. La aplicación es interactiva y eficiente, con una interfaz clara y fácil de usar.",
     technologies: ["HTML", "CSS", "React"],
-    link:"https://rodrigopavezreyes.github.io/to-do-list-app/"
+    link: "https://rodrigopavezreyes.github.io/to-do-list-app/",
   },
   {
     title: "E-commerce",
@@ -92,9 +124,8 @@ export const PROJECTS = [
     description:
       "e-commerce utilizando React, CSS y HTML, con un diseño moderno y funcional, enfocado en la usabilidad y la experiencia del usuario, con carrito de compras integrado.",
     technologies: ["HTML", "CSS", "React"],
-    link:"https://rodrigopavezreyes.github.io/e-commerce/"
+    link: "https://rodrigopavezreyes.github.io/e-commerce/",
   },
-  
 ];
 
 export const CONTACT = {
