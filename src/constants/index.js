@@ -83,7 +83,7 @@ export const PROJECTS = [
     description:
       "Aplicación desarrollada con React, Material UI y Framer Motion, que consume datos en tiempo real desde la PokeAPI. Permite explorar información detallada de Pokémon con una interfaz moderna, responsiva y animaciones fluidas. El diseño prioriza la usabilidad y la visualización clara de los datos, ofreciendo una experiencia atractiva e interactiva para el usuario.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Framer Motion"],
-    link: "https://rodrigopavezreyes.github.io/ArteMaderaProyect/",
+    link: "https://rodrigopavezreyes.github.io/pokeapi-react/",
   },
   {
     title: "Landing Page",

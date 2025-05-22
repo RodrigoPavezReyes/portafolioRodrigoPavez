@@ -108,7 +108,7 @@ const Technologies = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -117,7 +117,7 @@ const Technologies = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -125,7 +125,7 @@ const Technologies = () => {
           <FaFigma className="text-7xl text-red-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(7)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -134,7 +134,7 @@ const Technologies = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(7)}
+          variants={iconVariants(6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -143,7 +143,7 @@ const Technologies = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(7)}
+          variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -152,7 +152,7 @@ const Technologies = () => {
         </motion.div>
 
         <motion.div
-          variants={iconVariants(7)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
