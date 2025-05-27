@@ -11,6 +11,7 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
 import { SiCanva } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
 import { animate, inView, motion, transform } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -158,6 +159,15 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiCanva className="text-7xl text-[#8C2EFF]" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPostman className="text-7xl  text-red-500" />
         </motion.div>
       </motion.div>
     </div>
