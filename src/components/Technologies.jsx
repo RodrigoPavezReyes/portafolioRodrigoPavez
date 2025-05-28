@@ -12,6 +12,10 @@ import { FaGithub } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
 import { SiCanva } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { DiCss3 } from "react-icons/di";
+import { BiLogoTailwindCss } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 import { animate, inView, motion, transform } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -168,6 +172,42 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiPostman className="text-7xl  text-red-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaHtml5 className="text-7xl  text-red-600" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <DiCss3 className="text-7xl  text-blue-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <BiLogoTailwindCss className="text-7xl  text-blue-400" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiExpress className="text-7xl  text-black-400" />
         </motion.div>
       </motion.div>
     </div>
